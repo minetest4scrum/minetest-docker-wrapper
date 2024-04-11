@@ -1,0 +1,12 @@
+﻿#!/usr/bin/with-contenv bash
+
+if [ -z "$MODS" ]
+then
+    echo "Playing basic game without mods"
+elif [ "$MODS" = "true" ]
+then
+    echo "copy mods from /home/mods to /config/.minetest/mods"
+    cp -R /home/mods/ /config/.minetest/ 
+else
+    echo "Playing basic game without mods"; 
+fi
