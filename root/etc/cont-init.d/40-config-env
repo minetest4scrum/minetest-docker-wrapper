@@ -1,6 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 # replace values in /config/.minetest/main-config/minetest.conf by environment variables
+echo "------------------------------------------"
 echo "replace values in /config/.minetest/main-config/minetest.conf by environment variables"
 # server_name
 if [ -z "$SERVER_NAME" ]; 
@@ -66,3 +67,5 @@ fi
 # permissions
 chown -R abc:abc \
     /config
+
+echo "------------------------------------------"
