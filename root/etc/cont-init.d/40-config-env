@@ -3,6 +3,8 @@
 # replace values in /config/.minetest/${GAME}/minetest.conf by environment variables
 
 echo "------------------------------------------"
+# add mods and config only to default game, not to tutorial
+CONF_PATH="/config/.minetest/games/${GAME}/minetest.conf"
 
 if [ -z "$CONF_PATH" ]; 
     then echo "CONF_PATH not given"; 

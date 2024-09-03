@@ -3,7 +3,7 @@ Adding mods and other stuff to the official minetest docker image
 Usage:
 
 - add mods or other content to this repository
-- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.9.0 --no-cache .'
+- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.9.0 --no-cache --rm .'
 - push the image to 'minetest4scrum' docker hub account
 
 please note:
@@ -38,8 +38,7 @@ Environment variables
 | ADMIN | empty string | Name of the admin user |
 | MAPGEN | empty string | configuration string for the map, e.g. v7 |
 | CLI_ARGS | --gameid tutorial --port 30000 | command line arguments for the minetest server, replace 'tutorial' with the gameid, same as the folder name in /config/.minetest/games |
-| MOD_PATH | /config/.minetest/games/minetest_game | place where the additional mods should be copied to |
-| CONF_PATH | /config/.minetest/games/minetest_game/minetest.conf | place where the minetest.conf file is located |
+| GAME | tutorial | gameid, same as the folder in /config/.minetest/games |
 
 Example docker configuration for 'tutorial': 
 
@@ -52,8 +51,7 @@ docker run -d \
   -e PASSWORD="complexPassword" \
   -e ADMIN="TrainerName" \
   -e CLI_ARGS="--gameid tutorial --port 30000" \
-  -e MOD_PATH="" \
-  -e CONF_PATH="/config/.minetest/games/tutorial/minetest.conf" \
+  -e GAME="tutorial" \
   -p 30000:30000/udp \
   --restart unless-stopped \
   minetest4scrum/minetest-wrapper:5.9.0
@@ -71,8 +69,7 @@ docker run -d \
   -e ADMIN="TrainerName" \
   -e MAPGEN="v7" \
   -e CLI_ARGS="--gameid minetest_game --port 30000" \
-  -e MOD_PATH="" \
-  -e CONF_PATH="/config/.minetest/games/minetest_game/minetest.conf" \
+  -e GAME="minetest_game" \
   -p 30000:30000/udp \
   --restart unless-stopped \
   minetest4scrum/minetest-wrapper:5.9.0
