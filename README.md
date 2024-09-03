@@ -12,7 +12,8 @@ please note:
 
 Content:
 
-|| folder || description ||
+| folder | description |
+|--------|-------------|
 | root | contains scripts which are executed at the startup of the container |
 | mods | contains additional mods which will be copied by the init scripts to the games folder |
 | games | contains for each predefined game a seperate folder, 'tutorial' comes from minetest ContentDB, 'minetest_game' is a git clone of a default game |
@@ -20,14 +21,15 @@ Content:
 How it all fits together:
 
 In the built container you can find the following: 
-* in /etc/cont-init.d/ init scripts with
-** 40-config-env : replaces/appends configuration strings in a file and copy it to 'minetest_game'
-** 50-copy-mods : copys the mods located in /home/mods to 'minetest_game' mods folder
-* /config/.minetest/games/ contains the minetest games which can be selected by command line argument '--gameid' 
+- in /etc/cont-init.d/ init scripts with
+-- 40-config-env : replaces/appends configuration strings in a file and copy it to 'minetest_game'
+-- 50-copy-mods : copys the mods located in /home/mods to 'minetest_game' mods folder
+- /config/.minetest/games/ contains the minetest games which can be selected by command line argument '--gameid' 
 
 Environment variables
 
-|| Variable name || default value || description ||
+| Variable name | default value | description |
+|--------|-------------|-------------|
 | SERVER_NAME | Minetest@Capgemini | Any name which you want | 
 | MOTD | Welcome to the training | message of the day |
 | MAX_USERS | 50 | maximum allowed users for the server, tested up to 80 |
@@ -41,6 +43,7 @@ Environment variables
 
 Example docker configuration for 'tutorial': 
 
+```
 docker run -d \
   --name=minetest \
   -e SERVER_NAME="Minetest@Capgemini" \
@@ -54,9 +57,11 @@ docker run -d \
   -p 30000:30000/udp \
   --restart unless-stopped \
   minetest4scrum/minetest-wrapper:5.9.0
+  ```
 
 Example docker configuration for 'minetest_game': 
 
+```
 docker run -d \
   --name=minetest \
   -e SERVER_NAME="Minetest@Capgemini" \
@@ -71,3 +76,4 @@ docker run -d \
   -p 30000:30000/udp \
   --restart unless-stopped \
   minetest4scrum/minetest-wrapper:5.9.0
+  ```
