@@ -1,0 +1,16 @@
+sticky stone brick = blocco di pietra appiccicoso
+# A kind of stone:
+conglomerate = conglomerato
+picture frame = cornice
+short spikes = punte corte
+long spikes = punte lunghe
+flour = farina
+white sheet of paper = foglio bianco
+orange sheet of paper = foglio arancione
+purple sheet of paper = foglio viola
+green sheet of paper = foglio verde
+wheat = grano
+piece of rock = pezzo di roccia
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = fonte liquida di prova %i
+test liquid source %i = liquido corrente di prova %i

@@ -1,0 +1,11 @@
+sleeping mat = Schlafmatte
+straw layer = Strohschicht
+simple wooden bench = einfache Holzbank
+table = Tisch
+wagon wheel = Wagenrad
+black roof = schwarzes Dach
+black roof connector = Schwarzdachverbinder
+black flat roof = schwarzes Flachdach
+red roof = rotes Dach
+red roof connector = Rotdachverbinder
+red flat roof = rotes Flachdach

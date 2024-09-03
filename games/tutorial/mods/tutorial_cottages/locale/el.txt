@@ -1,0 +1,12 @@
+sleeping mat = στρώμα για ύπνο
+straw layer = στρώση από άχυρα
+simple wooden bench = απλός ξύλινος πάγκος
+# “table” as in “furniture”
+table = τραπέζι
+wagon wheel = τροχός άμαξας
+black roof = μαύρη οροφή
+black roof connector = σύνδεσμος μαύρης οροφής
+black flat roof = μαύρη επίπεδη οροφή
+red roof = κόκκινη οροφή
+red roof connector = σύνδεσμος κόκκινης οροφής
+red flat roof = επίπεδη κόκκινη οροφή

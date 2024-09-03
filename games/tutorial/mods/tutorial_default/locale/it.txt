@@ -1,0 +1,62 @@
+# Items
+book = libro
+coal lump = carbone grezzo
+iron lump = ferro grezzo
+gold lump = oro grezzo
+diamond = diamante
+steel ingot = lingotto di ferro
+gold ingot = lingotto d'oro
+stone = pietra
+coal ore
+iron ore
+gold ore
+diamond ore
+stone brick = mattone di pietra
+dirt with grass = terra con erba
+dirt = terra
+sand = sabbia
+tree trunk = ceppo
+leaves = foglie
+ladder = scala
+wooden planks = assi di legno
+flowing water = acqua corrente
+water source = fonte
+torch = torcia
+storage chest = baule
+cobblestone = pietrisco
+apple = mela
+furnace = fornace
+
+## Tools
+wooden pickaxe = piccone di legno
+stone pickaxe = piccone di pietra
+steel pickaxe = piccone d'acciaio
+wooden shovel = pala di legno
+steel axe = ascia d'acciaio
+
+
+# Infotexts
+Chest (Rightclick to open) = Baule (clic destro per aprire)
+Inactive furnace (Rightclick to examine) = Fornace spenta (clic destro per aprire)
+Empty furnace (Rightclick to examine) = Fornace vuota (clic destro per aprire)
+Active furnace (Flame used: %d%%) (Rightclick to examine) = Fornace attiva (combustibile: %d%%)(clic destro per aprire)
+Furnace without fuel (Rightclick to examine) = Fornace senza combustibile (clic destro per aprire)
+
+# Formspecs
+## Make sure this text fits in nicely even on small resolutions. You have 4 lines.
+[Left click]: Take/drop stack\n[Right click]: Take half stack / drop 1 item\n[Middle click]: Take/drop 10 items\n[Esc] or [I]: Close = [clic sn]: prendi/posa tutto\n[clic ds]: prendi metà/posa 1\n[clic centro]: prendi/posa 10\n[Esc] o [I]: chiudi
+Chest inventory: = Inventario baule:
+Player inventory: = Inventario giocatore:
+This furnace is active and constantly burning its fuel. = Questa fornace è attiva e sta bruciando il combustibile.
+This furnace is inactive. Please read the sign above. = Questa fornace è inattiva. Leggere il cartello.
+Back to start = Da capo
+#Toggle music =
+Crafting grid: = Griglia di fabbricazione:
+Output slot: = Prodotto:
+
+## Furnace formspecs
+Fuel: = Combustibile:
+Source: = Materiale:
+Flame: = Fiamma:
+Progress: = Progresso:
+Output slots: = Prodotto:

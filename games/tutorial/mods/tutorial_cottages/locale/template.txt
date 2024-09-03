@@ -1,0 +1,12 @@
+sleeping mat
+straw layer
+simple wooden bench
+# “table” as in “furniture”
+table
+wagon wheel
+black roof
+black roof connector
+black flat roof
+red roof
+red roof connector
+red flat roof

@@ -1,0 +1,12 @@
+basalt cobble = λιθάρι από βασάλτη
+basalt brick = τούβλο από βασάλτη
+stone brick = πέτρινο τούβλο
+straw = άχυρο
+lamp = λάμπα
+marble tile = μαρμάρινο πλακάκι
+medieval glass = μεσαιωνικό γυαλί
+wooden bars = ξύλινες μπάρες
+wooden grille = ξύλινο καπάκι
+wooden frame = ξύλινο πλαίσιο
+iron bars = σιδερένιες μπάρες
+iron grille = σιδερένιο καπάκι

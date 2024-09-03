@@ -1,0 +1,12 @@
+sleeping mat = tikar tidur
+straw layer = lapisan jerami
+simple wooden bench = bangku kayu sederhana
+# “table” as in “furniture”
+table = meja
+wagon wheel = roda kereta
+black roof = atap hitam
+black roof connector = penghubung atap hitam
+black flat roof = atap datar hitam
+red roof = atap merah
+red roof connector = penghubung atap merah
+red flat roof = atap datar merah

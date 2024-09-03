@@ -1,0 +1,28 @@
+# Nodes
+upwards-pointing sign = richtingaanwijzer naar boven
+downwards-pointing sign = richtingaanwijzer naar beneden
+leftwards-pointing sign = richtingaanwijzer links
+rightwards-pointing sign = richtingaanwijzer rechts
+
+# Captions
+Ladders section = Afdeling Ladders
+Swimming and Diving sections = Afdeling Zwemmen en Duiken
+To the Diving section = Naar afdeling Duiken
+Diving section = Afdeling Duiken
+Pointing section = Afdeling Aanwijzen
+Mining section, Building section (prerequisites: Item and Tools section) = Afdeling Mining, Afdeling Bouwen (voorwaarden: Afdeling Voorwerpen en Gereedschappen)
+Tutorial Mine (just for fun) = De Tutorialmijn (voor de lol)
+Special Blocks section = Afdeling Speciale Blokken
+To the Using section = Naar Afdeling Voorwerpen Gebruiken
+To the Items, Tools, Crafting and Smelting house = Naar het Voorwerpen-, Gereedschappen-, Crafting- en Smeltinghuis
+The Items, Tools, Crafting and Smelting house = Het Voorwerpen-, Gereedschappen-, Crafting- en Smeltinghuis
+Waterfall section = Afdeling Waterval
+Swimming section, Ladders section = Afdeling Zwemmen, Afdeling Ladders
+Sneaking section = Afdeling Sluipen
+Health and Damage section = Afdeling Gezondheid en Letsel
+Viscosity section = Afdeling Stroperigheid
+The Good-Bye Room = De Afscheidskamer
+Exit = Uitgang
+Comestibles room = Voedingskamer
+Smelting room = Smeltingkamer
+Building section = Afdeling Bouwen

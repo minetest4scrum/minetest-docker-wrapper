@@ -1,0 +1,62 @@
+# Items
+book = buku
+coal lump = potongan batu bara
+iron lump = potongan besi
+gold lump = potongan emas
+diamond = berlian
+steel ingot = batang baja
+gold ingot = batang emas
+stone = batu
+coal ore = bijih batu bara
+iron ore = bijih besi
+gold ore = bijih emas
+diamond ore = bijih berlian
+stone brick = tembok batu
+dirt with grass = tanah dengan rumput
+dirt = tanah
+sand = pasir
+tree trunk = batang pohon
+leaves = daun
+ladder = tangga
+wooden planks = papan kayu
+flowing water = air mengalir
+water source = sumber air
+torch = obor
+storage chest = peti penyimpanan
+cobblestone = bongkahan batu
+apple = apel
+furnace = tungku perapian
+
+## Tools
+wooden pickaxe = beliung kayu
+stone pickaxe = beliung batu
+steel pickaxe = beliung baja
+wooden shovel = sekop kayu
+steel axe = kampak baja
+
+
+# Infotexts
+Chest (Rightclick to open) = Peti (Klik kanan untuk membuka)
+Inactive furnace (Rightclick to examine) = Tungku mati (Klik kanan untuk memeriksa)
+Empty furnace (Rightclick to examine) = Tungku kosong (Klik kanan untuk memeriksa)
+Active furnace (Flame used: %d%%) (Rightclick to examine) = Tungku nyala (Api terpakai: %d%%) (Klik kanan untuk memeriksa)
+Furnace without fuel (Rightclick to examine) = Tungku tanpa bahan bakar (Klik kanan untuk memeriksa)
+
+# Formspecs
+## It is okay to shorten the translation if it does not fit into the formspec
+[left click]: take/drop stack;   [right click]: take half / drop 1;   [middle click]: take 10 / drop 10;   [Esc] or [I]: Close = [klik kiri]: ambil/taruh tumpukan; [klik kanan]: ambil 1/2 / taruh 1;\n[klik tengah]: ambil/taruh 10; [Esc] atau [I]: Tutup
+Chest inventory: = Inventaris peti:
+Player inventory: = Inventaris pemain:
+This furnace is active and constantly burning its fuel. = Tungku ini nyala dan secara konstan membakar bahan bakarnya.
+This furnace is inactive. Read the instructions to learn how to activate it. = Tungku ini mati. Baca instruksi untuk mempelajari cara menyalakannya.
+Back to start = Ke awal
+#Toggle music =
+Crafting grid: = Papan kerajinan:
+Output slot: = Hasil:
+
+## Furnace formspecs
+Fuel: = Bahan bakar:
+Source: = Bahan:
+Flame: = Api:
+Progress: = Proses:
+Output slots: = Hasil:

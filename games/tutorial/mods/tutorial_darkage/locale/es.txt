@@ -1,0 +1,12 @@
+basalt cobble = adoquín de basalto
+basalt brick = ladrillo de basalto
+stone brick = ladrillo de piedra
+straw = paja
+lamp = lámpara
+marble tile = losa de mármol
+medieval glass = vidrio  medieval
+wooden bars = barras de madera
+wooden grille = reja de madera
+wooden frame = marco de madera
+iron bars = barras de metal
+iron grille = reja de metal

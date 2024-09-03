@@ -1,0 +1,24 @@
+# hud.lua
+You are here: %s
+
+# Section names
+Start room
+Jumping section
+Pointing section
+Using section
+Inventory and Chests section
+Comestibles section
+Crafting and Tools section
+Smelting section
+Swimming section
+Diving section
+Waterfall section
+Viscosity section
+Health and Damage section
+Climbing section
+Mining section
+Special Blocks section
+Tutorial Mine
+Building section
+Sneaking section
+Good-Bye room

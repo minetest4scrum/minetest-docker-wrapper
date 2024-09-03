@@ -1,0 +1,62 @@
+# Items
+book = boek
+coal lump = een klomp steenkool
+iron lump = een klomp ijzer
+gold lump = een klomp goud
+diamond = diamant
+steel ingot = stalen staaf
+gold ingot = goudstaaf
+stone = gesteente
+coal ore = steenkoolerts
+iron ore = ijzererts
+gold ore = gouderts
+diamond ore = diamanterts
+stone brick = bouwsteen
+dirt with grass = aarde met gras
+dirt = aarde
+sand = zand
+tree trunk = boomstam
+leaves = bladeren
+ladder = ladder
+wooden planks = houten planken
+flowing water = stromend water
+water source = waterbron
+torch = fakkel
+storage chest = opslagkist
+cobblestone = keisteen
+apple = appel
+furnace = oven
+
+## Tools
+wooden pickaxe = houten pikhouweel
+stone pickaxe = stenen pikhouweel
+steel pickaxe = stalen pikhouweel
+wooden shovel = houten schep
+steel axe = stalen bijl
+
+
+# Infotexts
+Chest (Rightclick to open) = Kist (Rechtsklikken om te openen)
+Inactive furnace (Rightclick to examine) = Niet actieve oven (Rechtsklikken om te onderzoeken)
+Empty furnace (Rightclick to examine) = Lege oven (Rechtsklikken om te onderzoeken)
+Active furnace (Flame used: %d%%) (Rightclick to examine) = Actieve oven (Gebruike vlam: %d%%) (Rechtsklikken om te onderzoeken)
+Furnace without fuel (Rightclick to examine) = Oven zonder brandstof (Rechtsklikken om te onderzoeken)
+
+# Formspecs
+[left click]: take/drop stack;   [right click]: take half / drop 1;   [middle click]: take 10 / drop 10;   [Esc] or [I]: Close = [Linksklik]: pak/plaats stapel;   [Rechtsklik]: pak de helft / 1 wegleggen;   [Middelklik]: pak/plaats 10
+Chest inventory: = Kistinhoud:
+Player inventory: = Bezittingen:
+This furnace is active and constantly burning its fuel. = De oven is actief en verbrandt voortdurend brandstof.
+This furnace is inactive. Read the instructions to learn how to activate it. = Deze oven is niet actief. Lees de aanwijzingen en leer hoe de oven aangezet wordt.
+Back to start = Terug
+#Toggle music =
+Crafting grid: = Crafting raster:
+Output slot: = Resultaat:
+
+
+## Furnace formspecs
+Fuel: = Brandstof:
+Source: = Bronmateriaal:
+Flame: = Vlam:
+Progress: = Voortgang:
+Output slots: = Resultaatvakken:

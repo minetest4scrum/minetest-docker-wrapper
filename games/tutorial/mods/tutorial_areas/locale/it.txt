@@ -1,0 +1,24 @@
+# hud.lua
+You are here: %s = Ti trovi qui: %s
+
+# Section names
+Start room = Inizio
+Jumping section = Sezione salti
+Pointing section = Sezione puntare
+Using section = Sezione usare
+Inventory and Chests section = Sezione inventario e bauli
+Comestibles section = Sezione alimenti
+Crafting and Tools section = Sezione fabbricazione e attrezzi
+Smelting section = Sezione fusione
+Swimming section = Sezione nuotare
+Diving section = Sezione tuffarsi
+Waterfall section = Sezione cascata
+Viscosity section = Sezione viscosità
+Health and Damage section = Sezione vita e danni
+Climbing section = Sezione arrampicarsi
+Mining section = Sezione scavare
+Special Blocks section = Sezione blocchi speciali
+Tutorial Mine = Miniera del tutoriale
+Building section = Sezione costruire
+Sneaking section = Sezione strisciare
+Good-Bye room = Stanza di Addio

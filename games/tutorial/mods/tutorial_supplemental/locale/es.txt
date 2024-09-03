@@ -1,0 +1,16 @@
+sticky stone brick = ladrillo de piedra pegajoso
+# A kind of stone:
+conglomerate = conglomerado
+picture frame = marco de cuadro
+short spikes = pinchos cortos
+long spikes = pinchos largos
+flour = harina
+white sheet of paper = hoja de papel blanco
+orange sheet of paper = hoja de papel naranja
+purple sheet of paper = hoja de papel violeta
+green sheet of paper = hoja de papel verde
+wheat = trigo
+piece of rock = trozo de roca
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = líquido de pruebas de flujo %i
+test liquid source %i = fuente de líquido de pruebas %i

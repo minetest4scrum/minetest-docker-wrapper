@@ -1,0 +1,12 @@
+basalt cobble = Basaltkopfsteinpflaster
+basalt brick = Basaltziegel
+stone brick = Steinziegel
+straw = Stroh
+lamp = Lampe
+marble tile = Marmorkachel
+medieval glass = Mittelalterglas
+wooden bars = Holzstangen
+wooden grille = Holzgitter
+wooden frame = Holzrahmen
+iron bars = Eisenstangen
+iron grille = Eisengitter

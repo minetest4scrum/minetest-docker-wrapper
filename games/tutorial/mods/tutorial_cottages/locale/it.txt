@@ -1,0 +1,12 @@
+sleeping mat = materassino
+straw layer = strato di paglia
+simple wooden bench = panca di legno grezzo
+# “table” as in “furniture”
+table = tavolo
+wagon wheel = carrello
+black roof = tetto nero
+black roof connector = raccordo tetto nero
+black flat roof = tetto nero piatto
+red roof = tetto rosso
+red roof connector = raccordo tetto rosso
+red flat roof = tetto rosso piatto

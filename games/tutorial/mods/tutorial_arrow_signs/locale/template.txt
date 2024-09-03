@@ -1,0 +1,28 @@
+# Nodes
+upwards-pointing sign
+downwards-pointing sign
+leftwards-pointing sign
+rightwards-pointing sign
+
+# Captions
+Ladders section
+Swimming and Diving sections
+To the Diving section
+Diving section
+Pointing section
+Mining section, Building section (prerequisites: Item and Tools section)
+Tutorial Mine (just for fun)
+Special Blocks section
+To the Using section
+To the Items, Tools, Crafting and Smelting house
+The Items, Tools, Crafting and Smelting house
+Waterfall section
+Swimming section, Ladders section
+Sneaking section
+Health and Damage section
+Viscosity section
+The Good-Bye Room
+Exit
+Comestibles room
+Smelting room
+Building section

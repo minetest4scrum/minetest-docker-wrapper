@@ -1,0 +1,62 @@
+# Items
+book = Buch
+coal lump = Kohleklumpen
+iron lump = Eisenklumpen
+gold lump = Goldklumpen
+diamond = Diamant
+steel ingot = Stahlbarren
+gold ingot = Goldbarren
+stone = Gestein
+coal ore = Kohleerz
+iron ore = Eisenerz
+gold ore = Golderz
+diamond ore = Diamanterz
+stone brick = Steinziegel
+dirt with grass = Erde mit Gras
+dirt = Erde
+sand = Sand
+tree trunk = Baumstamm
+leaves = Blätter
+ladder = Leiter
+wooden planks = Holzplanken
+flowing water = fließendes Wasser
+water source = Wasserquelle
+torch = Fackel
+storage chest = Lagertruhe
+cobblestone = Kopfsteinpflaster
+apple = Apfel
+furnace = Ofen
+
+## Tools
+wooden pickaxe = Holzspitzhacke
+stone pickaxe = Steinspitzhacke
+steel pickaxe = Stahlspitzhacke
+wooden shovel = Holzschaufel
+steel axe = Stahlaxt
+
+
+# Infotexts
+Chest (Rightclick to open) = Truhe (Rechtsklicken zum Öffnen)
+Inactive furnace (Rightclick to examine) = Inaktiver Ofen (Rechtsklicken zum Untersuchen)
+Empty furnace (Rightclick to examine) = Leerer Ofen (Rechtsklicken zum Untersuchen)
+Active furnace (Flame used: %d%%) (Rightclick to examine) = Aktiver Ofen (Flamme: %d%%) (Rechtklicken zum Untersuchen)
+Furnace without fuel (Rightclick to examine) = Ofen ohne Brennstoff (Rechtsklicken zum Untersuchen)
+
+# Formspecs
+[Left click]: Take/drop stack\n[Right click]: Take half stack / drop 1 item\n[Middle click]: Take/drop 10 items\n[Esc] or [I]: Close = [Linksklick]: Stapel nehmen/ablegen\n[Rechtsklick]: Halben Stapel nehmen / 1 Gegenstand ablegen\n[Mittelklick]: 10 Gegenstände nehmen/ablegen\n[Esc] oder [I]: Schließen
+Chest inventory: = Truheninventar:
+Player inventory: = Spielerinventar:
+This furnace is active and constantly burning its fuel. = Der Ofen ist aktiv und verbrennt beständig seinen Brennstoff.
+This furnace is inactive. Please read the sign above. = Der Ofen ist inaktiv. Bitte lesen Sie das obige Schild.
+Teleport = Teleportieren
+Toggle music = Musik umschalten
+Crafting grid: = Fertigungsgitter:
+Output slot: = Resultat:
+
+
+## Furnace formspecs
+Fuel: = Brennstoff:
+Source: = Quellmaterial:
+Flame: = Flamme:
+Progress: = Fortschritt:
+Output slots: = Ausgabeplätze:

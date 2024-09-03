@@ -1,0 +1,16 @@
+sticky stone brick = ένα τούβλο που κολάει
+# A kind of stone:
+conglomerate = συνοθύλευμα
+picture frame = πλαίσιο εικόνας
+short spikes = κοντά καρφιά
+long spikes = μακριά καρφιά
+flour = αλεύρι
+white sheet of paper = ασπρό χαρτί
+orange sheet of paper = πορτοκαλί χαρτί
+purple sheet of paper = μωβ χαρτί
+green sheet of paper = πράσινο χαρτί
+wheat = στάρι
+piece of rock = κομμάτι πέτρας
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = πειραματικό ρευστό υγρό %i
+test liquid source %i = πηγή πειραματικού ρευστού %i

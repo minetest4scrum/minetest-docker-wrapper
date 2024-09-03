@@ -1,0 +1,28 @@
+# Nodes
+upwards-pointing sign = πινακίδα που δείχνει πάνω
+downwards-pointing sign = πινακίδα που δείχνει κάτω
+leftwards-pointing sign = πινακίδα που δείχνει αριστερά
+rightwards-pointing sign = πινακίδα που δείχνει δεξιά
+
+# Captions
+Ladders section = Περιοχή με σκάλες
+Swimming and Diving sections = Περιοχή για κολύμπι και κατάδυση
+To the Diving section = Προς περιοχή κατάδυσης
+Diving section = Περιοχή κατάδυσης
+Pointing section = Περιοχή επίδειξης
+Mining section, Building section (prerequisites: Item and Tools section) = Περιοχή ορυχείων και κατασκευών (να έχεις επισκευφτεί πρώτα την περιοχή αντικειμένων και εργαλείων)
+Tutorial Mine (just for fun) = Εκπαιδευτικό ορυχείο (για χαβαλέ)
+Special Blocks section = Περιοχή ειδικών κύβων
+To the Using section = Προς περιοχή χρησιμοποίησης
+To the Items, Tools, Crafting and Smelting house = Προς σπίτι αντικειμένων, εργαλείων, κατασκευών και λιωσίματος
+The Items, Tools, Crafting and Smelting house = Σπίτι αντικειμένων, εργαλείων, κατασκευών και λιωσίματος
+Waterfall section = Περιοχή καταρράκτη
+Swimming section, Ladders section = Περιοχή κολύμβησης, περιοχή με σκάλες
+Sneaking section = Περιοχή αθόρυβου περπατήματος
+Health and Damage section = Περιοχή υγείας και ζημιάς
+Viscosity section = Περιοχή πηξήματος
+The Good-Bye Room = Δωμάτιο αποχαιρετισμού
+Exit = Έξοδος
+Comestibles room = Δωμάτιο φαγητών
+Smelting room = Δωμάτιο λιωσίματος
+Building section = Περιοχή κτισίματος

@@ -1,14 +1,11 @@
 ﻿#!/usr/bin/with-contenv bash
 echo "------------------------------------------"
 
-if [ -z "$MODS" ]
-then
-    echo "Playing basic game without mods"
-elif [ "$MODS" = "true" ]
-then
-    echo "copy mods from /home/mods to /config/.minetest/mods"
-    cp -R /home/mods/ /config/.minetest/ 
-else
-    echo "Playing basic game without mods"; 
+if [ -z "$MOD_PATH" ]; 
+    then echo "MOD_PATH not given"; 
+    else 
+        echo "copy mods from /home/mods to ${MOD_PATH}";
+        cp -R /home/mods ${MOD_PATH};
 fi
+
 echo "------------------------------------------"
