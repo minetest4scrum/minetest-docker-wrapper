@@ -3,7 +3,7 @@ Adding mods and other stuff to the official minetest docker image
 Usage:
 
 - add mods or other content to this repository
-- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:<version> --no-cache .'
+- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.9.0 --no-cache .'
 - push the image to 'minetest4scrum' docker hub account
 
 please note:
