@@ -18,6 +18,8 @@ Content:
 | mods | contains additional mods which will be copied by the init scripts to the games folder |
 | games | contains for each predefined game a seperate folder, 'tutorial' comes from minetest ContentDB, 'minetest_game' is a git clone of a default game |
 
+see https://github.com/just-containers/s6-overlay?tab=readme-ov-file#init-stages for init scripts
+
 How it all fits together:
 
 In the built container you can find the following: 
