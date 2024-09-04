@@ -34,24 +34,24 @@ echo "replace/add values in ${CONF_PATH} by environment variables"
 
 # server_name
 if [ -z "$SERVER_NAME" ]; 
-    then echo "SERVER_NAME not given"; 
+    then echo "[INFO]  SERVER_NAME not given"; 
     else echo "server_name = $SERVER_NAME" >> $CONF_PATH;
 fi
 
 if [ -z "$SERVER_DESCRIPTION" ]; 
-    then echo "SERVER_DESCRIPTION not given"; 
+    then echo "[INFO] SERVER_DESCRIPTION not given"; 
     else echo "server_description = $SERVER_DESCRIPTION" >> $CONF_PATH;
 fi
 
 # motd = "Welcome to the training"
 if [ -z "$MOTD" ]; 
-    then echo "MOTD not given"; 
+    then echo "[INFO] MOTD not given"; 
     else echo "motd = $MOTD" >> $CONF_PATH;
 fi
 
 # max_users 
 if [ -z "$MAX_USERS" ]; 
-    then echo "MAX_USERS not given"; 
+    then echo "[INFO] MAX_USERS not given"; 
     else echo "max_users = $MAX_USERS" >> $CONF_PATH;
 fi
 
@@ -60,14 +60,14 @@ echo "creative_mode = true" >> $CONF_PATH;
 
 # admins
 if [ -z "$ADMIN" ]; 
-    then echo "ADMIN not given"; 
+    then echo "[INFO] ADMIN not given"; 
     else 
         echo "name = $ADMIN" >> $CONF_PATH;
 fi
 
 # default_password
 if [ -z "$PASSWORD" ]; 
-    then echo "PASSWORD not given"; 
+    then echo "[WARN] PASSWORD not given"; 
     else echo "default_password = $PASSWORD" >> $CONF_PATH;
 fi
 
@@ -88,7 +88,7 @@ echo "world_start_time = 6125" >> $CONF_PATH;
 
 # mapgen
 if [ -z "$MAPGEN" ]; 
-    then echo "MAPGEN not given"; 
+    then echo "[INFO] MAPGEN not given"; 
     echo "mg_name = $MAPGEN" >> $CONF_PATH;
 fi
 

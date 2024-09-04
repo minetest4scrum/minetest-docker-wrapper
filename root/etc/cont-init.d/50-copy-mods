@@ -1,8 +1,9 @@
 ﻿#!/usr/bin/with-contenv bash
+
 echo "------------------------------------------"
 
 # add mods and config only to default game, not to tutorial
-MOD_PATH="/config/.minetest/games/${GAME}"
+MOD_PATH="/config/.minetest/games/${GAME}/mods"
 
 if [ "$GAME" = "tutorial" ]; 
     then echo "do not copy mods in tutorial game"; 
