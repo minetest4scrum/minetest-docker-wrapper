@@ -1,4 +1,4 @@
--- Author: David Bauch
+-- Author: Thorben Striegel
 
 -- Funktion zum Entfernen des interact-Privilegs für alle Spieler
 local function remove_interact_privilege()
