@@ -1,0 +1,12 @@
+basalt cobble = basalten key
+basalt brick = basalten bouwsteen
+stone brick = stenen bouwsteen
+straw = stro
+lamp = lam
+marble tile = marmeren tegel
+medieval glass = middeleeuws glas
+wooden bars = houten staven
+wooden grille = houten hekwerk
+wooden frame = houten raam
+iron bars = ijzeren staven
+iron grille = ijzeren hekwerk

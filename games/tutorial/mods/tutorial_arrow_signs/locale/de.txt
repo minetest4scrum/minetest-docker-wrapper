@@ -1,0 +1,28 @@
+# Nodes
+upwards-pointing sign = nach oben zeigendes Schild
+downwards-pointing sign = nach unten zeigendes Schild
+leftwards-pointing sign = nach links zeigendes Schild
+rightwards-pointing sign = nach rechts zeigendes Schild
+
+# Captions
+Ladders section = Leiterabschnitt
+Swimming and Diving sections = Schwimm- und Tauchabschnitte
+To the Diving section = Zum Tauchabschnitt
+Diving section = Tauchabschnitt
+Pointing section = Zeigeabschnitt
+Mining section, Building section (prerequisites: Item and Tools section) = Grabeabscnitt, Bauabschnitt (Vorbedingungen: Gegenstands- und Werkzeugabschnitt)
+Tutorial Mine (just for fun) = Tutorialmine (Nur zum Spaß)
+Special Blocks section = Sonderblöcke-Abschnitt
+To the Using section = Zum Benutzen-Abschnitt
+To the Items, Tools, Crafting and Smelting house = Zum Gegenstands-, Werkzeugs-, Fertigungs- und Verhüttungshaus
+The Items, Tools, Crafting and Smelting house = Das Gegenstands-, Werkzeugs-, Fertigungs- und Verhüttungshaus
+Waterfall section = Wasserfallabschnitt
+Swimming section, Ladders section = Schwimmabschnitt, Leiterabschnitt
+Sneaking section = Schleichabschnitt
+Health and Damage section = Gesundheits- und Schadensabschnitt
+Viscosity section = Zähflüssigkeitsabschnitt
+The Good-Bye Room = Der Abschiedsraum
+Exit = Ausgang
+Comestibles room = Lebensmittelraum
+Smelting room = Verhüttungsraum
+Building section = Bauabschnitt

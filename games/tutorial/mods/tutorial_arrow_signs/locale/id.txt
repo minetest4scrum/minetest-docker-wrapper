@@ -1,0 +1,27 @@
+# Nodes
+upwards-pointing sign = papan penunjuk atas
+downwards-pointing sign = papan penunjuk bawah
+leftwards-pointing sign = papan penunjuk kiri
+rightwards-pointing sign = papan penunjuk kanan
+
+# Captions
+Ladders section = Bab Tangga
+Swimming and Diving sections = Bab Berenang dan Menyelam
+To the Diving section = Ke Bab Menyelam
+Diving section = Bab Menyelam
+Pointing section = Bab Menunjuk
+Mining section, Building section (prerequisites: Item and Tools section) = Bab Tambang, Bab Membangun (prasyarat: Bab Barang dan Peralatan)
+Tutorial Mine (just for fun) = Tambang Tutorial (utk bersenang-senang)
+Special Blocks section = Bab Blok Spesial
+To the Using section = Ke Bab Memakai
+To the Items, Tools, Crafting and Smelting house = Ke Rumah Barang, Peralatan, Kerajinan dan Peleburan
+The Items, Tools, Crafting and Smelting house = Rumah Barang, Peralatan, Kerajinan dan Peleburan
+Waterfall section = Bab Air Terjun
+Swimming section, Ladders section = Bab Berenang, Bab Tangga
+Sneaking section = Bab Menyelinap
+Health and Damage section = Bab Kesehatan dan Kerusakan
+Viscosity section = Bab Kekentalan
+The Good-Bye Room = Ruang Sampai-Jumpa
+Exit = Keluar
+Comestibles room = Ruang Pangan
+Smelting room = Ruang Peleburan

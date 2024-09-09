@@ -1,0 +1,16 @@
+sticky stone brick = tembok batu lengket
+# A kind of stone:
+conglomerate = konglomerat
+picture frame = bingkai gambar
+short spikes = duri pendek
+long spikes = duri panjang
+flour = tepung
+white sheet of paper = lembar kertas putih
+orange sheet of paper = lembar kertas jingga
+purple sheet of paper = lembar kertas ungu
+green sheet of paper = lembar kertas hijau
+wheat = gandum
+piece of rock = sepotong batu
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = pengujian cairan mengalir %i
+test liquid source %i = pengujian sumber cairan %i

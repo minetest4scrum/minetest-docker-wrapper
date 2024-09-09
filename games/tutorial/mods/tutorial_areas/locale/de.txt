@@ -1,0 +1,25 @@
+# hud.lua
+You are here: %s = Sie befinden sich hier: %s
+
+# Section names
+Start room = Startraum
+Jumping section = Sprungabschnitt
+Pointing section = Zeigeabschnitt
+Using section = Benutzen-Abschnitt
+Inventory and Chests section = Abschnitt »Inventar und Truhen«
+Comestibles section = Abschnitt »Essbare Gegenstände«
+Crafting and Tools section = Abschnitt »Fertigung und Werkzeuge«
+Smelting section = Verhüttungsabschnitt
+Swimming section = Schwimmabschnitt
+Diving section = Tauchabschnitt
+Waterfall section = Wasserfallabschnitt
+Viscosity section = Zähflüssigkeitsabschnitt
+Health and Damage section = Abschnitt »Gesundheit und Schaden«
+Climbing section = Kletterabschnitt
+Mining section = Abbauabschnitt
+Special Blocks section = Abschnitt »Besondere Blöcke«
+Tutorial Mine = Tutorialmine 
+Building section = Bauabschnitt
+Sneaking section = Schleichabschnitt
+Good-Bye room = Abschiedsraum
+

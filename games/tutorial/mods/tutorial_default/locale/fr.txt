@@ -1,0 +1,62 @@
+# Items
+book = Livre
+coal lump = Morceau de charbon
+iron lump = Morceau de fer
+gold lump = Morceau d'or
+diamond = Diamant
+steel ingot = Lingot de fer
+gold ingot = Lingot d'or
+stone = Pierre
+coal ore = Minerai de charbon
+iron ore = Minerai de fer
+gold ore = Minerai d'or
+diamond ore = Minerai de diamant
+stone brick = Briques de pierre
+dirt with grass = Terre avec herbe
+dirt = Terre
+sand = Sable
+tree trunk = Tronc d'arbre
+leaves = Feuillages
+ladder = Échelle
+wooden planks = Planches de bois
+flowing water = Eau courante
+water source = Source d'eau
+torch = Torche
+storage chest = Coffre
+cobblestone = Pierre taillée
+apple = Pomme
+furnace = Four
+
+## Tools
+wooden pickaxe = Pioche en bois
+stone pickaxe = Pioche en pierre
+steel pickaxe = Pioche en fer
+wooden shovel = Pelle en bois
+steel axe = Hache en fer
+
+
+# Infotexts
+Chest (Rightclick to open) = Coffre (clic droit pour ouvrir)
+Inactive furnace (Rightclick to examine) = Four inactif (clic droit pour ouvrir)
+Empty furnace (Rightclick to examine) = Four vide (clic droit pour ouvrir)
+Active furnace (Flame used: %d%%) (Rightclick to examine) = Four actif (flamme utilisée : %d%%) (clic droit pour ouvrir)
+Furnace without fuel (Rightclick to examine) = Four sans carburant (clic droit pour ouvrir)
+
+# Formspecs
+## It is okay to shorten the translation if it does not fit into the formspec
+[left click]: take/drop stack;   [right click]: take half / drop 1;   [middle click]: take 10 / drop 10;   [Esc] or [I]: Close = [Clic gauche] : prendre un objet; [Clic droit] : prendre la moitié; [Clic du milieu] : en prendre 10; [Échap] ou [I] : fermer
+Chest inventory: = Inventaire du coffre :
+Player inventory: = Inventaire du joueur :
+This furnace is active and constantly burning its fuel. = Ce four est actif et brûle constamment son carburant.
+This furnace is inactive. Read the instructions to learn how to activate it. = Ce four est inactif. Lisez les instructions pour savoir comment l'activer.
+Back to start = Revenir au début
+#Toggle music =
+Crafting grid: = Grille de fabrication :
+Output slot: = Production :
+
+## Furnace formspecs
+Fuel: = Carburant :
+Source: = Source :
+Flame: = Flamme :
+Progress: = Progression :
+Output slots: Productions :

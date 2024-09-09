@@ -1,0 +1,16 @@
+sticky stone brick = Briques de pierre collantes
+# A kind of stone:
+conglomerate = Conglomérat
+picture frame = Cadre photo
+short spikes = Piques courtes
+long spikes = Piques longues
+flour = Farine
+white sheet of paper = Papier blanc
+orange sheet of paper = Papier orange
+purple sheet of paper = Papier violet
+green sheet of paper = Papier vert
+wheat = Blé
+piece of rock = Bout de pierre
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = Liquide visqueux courant %i
+test liquid source %i = Source de liquide visqueux %i

@@ -1,0 +1,24 @@
+# hud.lua
+You are here: %s = Je bent hier: %s
+
+# Section names
+Start room = Startkamer
+Jumping section = Afdeling Springen
+Pointing section = Afdeling Aanwijzen
+Using section = Afdeling Voorwerpen gebruiken
+Inventory and Chests section = Afdeling Inventory en Kisten
+Comestibles section = Afdeling Voedel
+Crafting and Tools section = Afdeling Crafting en Gereedschap
+Smelting section = Afdeling Smelting
+Swimming section = Afdeling Zwemmen
+Diving section = Afdeling Duiken
+Waterfall section = Afdeling Waterval
+Viscosity section = Afdeling Stroperigheid
+Health and Damage section = Afdeling Gezondheid en Letsel
+Climbing section = Afdeling Klimmen
+Mining section = Afdeling Mining
+Special Blocks section = Afdeling Speciale Blokken
+Tutorial Mine = De Tutorial Mijn
+Building section = Afdeling Bouwen
+Sneaking section = Afdeling Sluipen
+Good-Bye room = Afscheidsruimte

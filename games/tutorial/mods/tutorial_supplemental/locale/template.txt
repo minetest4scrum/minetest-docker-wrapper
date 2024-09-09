@@ -1,0 +1,18 @@
+sticky stone brick
+# A kind of stone:
+conglomerate
+picture frame
+short spikes
+long spikes
+flour
+white sheet of paper
+orange sheet of paper
+purple sheet of paper
+green sheet of paper
+wheat
+piece of rock
+loudspeaker
+loudspeaker (rightclick to toggle music)
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i
+test liquid source %i

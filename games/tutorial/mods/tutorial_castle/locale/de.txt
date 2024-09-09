@@ -1,0 +1,2 @@
+mounted shield = angebrachtes Schild
+light block = Lichtblock

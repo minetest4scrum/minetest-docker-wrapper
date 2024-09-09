@@ -1,0 +1,62 @@
+# Items
+book = libro
+coal lump = trozo  de carbón
+iron lump = trozo de hierro
+gold lump = trozo de oro
+diamond = diamante
+steel ingot = lingote de acero
+gold ingot = lingote de oro
+stone = piedra
+coal ore = veta de carbón
+iron ore = veta de hierro
+gold ore = veta de oro
+diamond ore = veta de diamantes
+stone brick = ladrillo de piedra
+dirt with grass = terrón  con hierba
+dirt = terrón
+sand = arena
+tree trunk = tronco de árbol
+leaves = hojas
+ladder = escalera
+wooden planks = planchas de madera
+flowing water = agua corriente
+water source = manantial
+torch = antorcha
+storage chest = baúl
+cobblestone = adoquín
+apple = manzana
+furnace = horno
+
+## Tools
+wooden pickaxe = pico de madera
+stone pickaxe = pico de piedra
+steel pickaxe = pico de hierro
+wooden shovel = pala de madera
+steel axe = hacha de acero
+
+
+# Infotexts
+Chest (Rightclick to open) = Cofre (click derecho para abrirlo)
+Inactive furnace (Rightclick to examine) = horno apagado (click derecho para examinarlo)
+Empty furnace (Rightclick to examine) = horno vacío (click derecho para examinarlo)
+Active furnace (Flame used: %d%%) (Rightclick to examine) = horno encendido (llama usada: %d%%)  (click derecho para examinarlo)
+Furnace without fuel (Rightclick to examine) = horno sin combustible  (click derecho para examinarlo)
+
+# Formspecs
+[left click]: take/drop stack;   [right click]: take half / drop 1;   [middle click]: take 10 / drop 10;   [Esc] or [I]: Close = [click izquierdo]: coger / dejar pila;   [click derecho]: coger la mitad / dejar 1;   [click central]: coger / dejar 10
+Chest inventory: = inventario del baúl:
+Player inventory: = inventario del jugador:
+This furnace is active and constantly burning its fuel. = Este horno está encendido y quemando su combustible constantemente.
+This furnace is inactive. Read the instructions to learn how to activate it. = Este horno está apagado. Lee las instrucciones para aprender a encenderlo.
+Back to start = Volver al principio
+#Toggle music =
+Crafting grid: = cuadrícula de manufactura:
+Output slot: = hueco de productos:
+
+
+## Furnace formspecs
+Fuel: = combustible:
+Source: = fuente:
+Flame: = llamas:
+Progress: = progreso:
+Output slots: = huecos de productos:

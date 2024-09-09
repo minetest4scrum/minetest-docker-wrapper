@@ -1,0 +1,12 @@
+basalt cobble = bongkahan basal
+basalt brick = tembok basal
+stone brick = tembok batu
+straw = jerami
+lamp = lampu
+marble tile = keramik marmer
+medieval glass = kaca abad pertengahan
+wooden bars = palang kayu
+wooden grille = kisi-kisi kayu
+wooden frame = bingkai kayu
+iron bars = palang besi
+iron grille = kisi-kisi besi

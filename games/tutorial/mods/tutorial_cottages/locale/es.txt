@@ -1,0 +1,11 @@
+sleeping mat = alfombrilla de dormir
+straw layer = capa de paja
+simple wooden bench = banco de madera sencillo
+table = mesa
+wagon wheel = rueda de vagoneta
+black roof = tejado negro
+black roof connector = conector de tejado negro
+black flat roof = tejado plano negro
+red roof = tejado rojo
+red roof connector = conector de tejado rojo
+red flat roof = tejado plano rojo

@@ -1,0 +1,2 @@
+mounted shield = escudo montado
+light block = bloque de luz

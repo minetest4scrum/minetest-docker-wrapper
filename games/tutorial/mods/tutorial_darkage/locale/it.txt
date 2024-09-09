@@ -1,0 +1,12 @@
+basalt cobble = pietra basaltica
+basalt brick = mattone di basalto
+stone brick = mattone di pietra
+straw = paglia
+lamp = lampada
+marble tile = piastra di marmo
+medieval glass = vetro medievale
+wooden bars = barre di legno
+wooden grille = griglia di legno
+wooden frame = cornice di legno
+iron bars = barre d'acciaio
+iron grille = griglia d'acciaio

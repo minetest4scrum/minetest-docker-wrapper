@@ -1,0 +1,12 @@
+basalt cobble
+basalt brick
+stone brick
+straw
+lamp
+marble tile
+medieval glass
+wooden bars
+wooden grille
+wooden frame
+iron bars
+iron grille

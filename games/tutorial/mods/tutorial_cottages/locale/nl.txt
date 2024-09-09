@@ -1,0 +1,11 @@
+sleeping mat = slaapmat
+straw layer = laag stro
+simple wooden bench = eenvoudige houten bank
+table = tafel
+wagon wheel = wagenwiel
+black roof = zwart dak
+black roof connector = zwart dak verbinder
+black flat roof = zwart plat dak
+red roof = root dak
+red roof connector = rood dak verbinder
+red flat roof = rood plat dak

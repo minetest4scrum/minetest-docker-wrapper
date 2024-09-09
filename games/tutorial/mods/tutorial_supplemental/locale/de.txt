@@ -1,0 +1,18 @@
+sticky stone brick = klebriger Steinziegel
+# A kind of stone:
+conglomerate = Konglomerat
+picture frame = Bilderrahmen
+short spikes = kurze Stacheln
+long spikes = lange Stacheln
+flour = Mehl
+white sheet of paper = weißes Blatt Papier
+orange sheet of paper = orange Blatt Papier
+purple sheet of paper = violettes Blatt Papier
+green sheet of paper = grünes Blatt Papier
+wheat = Weizen
+piece of rock = Stück Stein
+loudspeaker = Lautsprecher
+loudspeaker (rightclick to toggle music) = Lautsprecher (Rechtsklick, um Musik umzuschalten)
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = fließende Testflüssigkeit %i
+test liquid source %i = Testflüssigkeitsquelle %i

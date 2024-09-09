@@ -1,0 +1,62 @@
+# Items
+book
+coal lump
+iron lump
+gold lump
+diamond
+steel ingot
+gold ingot
+stone
+coal ore
+iron ore
+gold ore
+diamond ore
+stone brick
+dirt with grass
+dirt
+sand
+tree trunk
+leaves
+ladder
+wooden planks
+flowing water
+water source
+torch
+storage chest
+cobblestone
+apple
+furnace
+
+## Tools
+wooden pickaxe
+stone pickaxe
+steel pickaxe
+wooden shovel
+steel axe
+
+
+# Infotexts
+Chest (Rightclick to open)
+Inactive furnace (Rightclick to examine)
+Empty furnace (Rightclick to examine)
+Active furnace (Flame used: %d%%) (Rightclick to examine)
+Furnace without fuel (Rightclick to examine)
+
+# Formspecs
+## Make sure this text fits in nicely even on small resolutions. You have 4 lines.
+[Left click]: Take/drop stack\n[Right click]: Take half stack / drop 1 item\n[Middle click]: Take/drop 10 items\n[Esc] or [I]: Close
+Chest inventory:
+Player inventory:
+This furnace is active and constantly burning its fuel.
+This furnace is inactive. Please read the sign above.
+Teleport
+Toggle music
+Crafting grid:
+Output slot:
+
+## Furnace formspecs
+Fuel:
+Source:
+Flame:
+Progress:
+Output slots:

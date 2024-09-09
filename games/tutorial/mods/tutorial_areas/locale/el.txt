@@ -1,0 +1,24 @@
+# hud.lua
+You are here: %s = Είσαι εδώ: %s
+
+# Section names
+Start room = Αρχικό δωμάτιο 
+Jumping section = Περιοχή πηδήματος
+Pointing section = Περιοχή επίδειξης
+Using section = Περιοχή χρησιμοποίησης
+Inventory and Chests section = Περιοχή αντικειμένων και κιβωτίων
+Comestibles section = Περιοχή φαγητών
+Crafting and Tools section = Περιοχή κατασκευών και εργαλείων
+Smelting section = Περιοχή λιωσίματος
+Swimming section = Περιοχή κολύμβησης
+Diving section = Περιοχή κατάδυσης
+Waterfall section = Περιοχή καταρράκτη
+Viscosity section = Περιοχή πηξήματος
+Health and Damage section = Περιοχή υγείας και ζημιάς
+Climbing section = Περιοχή σκαρφαλώματος
+Mining section = Περιοχή ορυχείων
+Special Blocks section = Περιοχή ειδικών κύβων
+Tutorial Mine = Εκπαιδευτικό ορυχείο
+Building section = Περιοχή κτισίματος
+Sneaking section = Περιοχή αθόρυβου περπατήματος
+Good-Bye room = Δωμάτιο αποχαιρετισμού

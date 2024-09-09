@@ -1,0 +1,16 @@
+sticky stone brick = klebriger Steinziegel
+# A kind of stone:
+conglomerate = conglomeraat
+picture frame = beeldvenster
+short spikes = korte stekels
+long spikes = lange stekels
+flour = meel
+white sheet of paper = wit blad papier
+orange sheet of paper = oranje blad papier
+purple sheet of paper = paars blad papier
+green sheet of paper = groen blad papier
+wheat = tarwe
+piece of rock = stuk rots
+# Test liquids are those seen at the viscosity station
+flowing test liquid %i = test stromende vloeistof %i
+test liquid source %i = test vloeistof bron %i

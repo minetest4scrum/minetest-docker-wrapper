@@ -1,0 +1,126 @@
+#!/usr/bin/with-contenv bash
+
+if [ -z "$DEBUG" ]; 
+    then echo ""; 
+    else
+        echo "------------- ENVIRONMENT VARIABLES -----------------------------";
+        printenv;
+        echo "------------------------------------------";
+fi
+
+# replace values in /config/.minetest/${GAME}/minetest.conf by environment variables
+
+echo "------------------------------------------"
+# add mods and config only to default game, not to tutorial
+CONF_PATH="/config/.minetest/games/${GAME}/minetest.conf"
+
+if [ -z "$CONF_PATH" ]; 
+    then echo "[ERROR] CONF_PATH not given"; 
+    echo "------------------------------------------"
+    exit 1;
+fi
+
+echo "[INFO] replace/add values in ${CONF_PATH} by environment variables"
+
+### example for replacement if environment variable is given ###
+# server_name
+# if [ -z "$SERVER_NAME" ]; 
+#    then echo "SERVER_NAME not given"; 
+#    else sed -i "s/.*server_name.*/server_name = $SERVER_NAME/" ${CONF_PATH};
+# fi
+### -------------------------------------------------------- ###
+
+### example for appending to ${CONF_PATH} ###
+# server_name
+# if [ -z "$SERVER_NAME" ];
+#    then echo "SERVER NAME not given";
+#    else echo "server_name = $SERVER_NAME" >> $CONF_PATH;
+# fi
+### ------------------------------------- ###
+
+# file /config/.minetest/minetest_game/minetest.conf is empty thus append just
+
+# server_name
+if [ -z "$SERVER_NAME" ]; 
+    then echo "[INFO]  SERVER_NAME not given"; 
+    else echo "server_name = $SERVER_NAME" >> $CONF_PATH;
+fi
+
+if [ -z "$SERVER_DESCRIPTION" ]; 
+    then echo "[INFO] SERVER_DESCRIPTION not given"; 
+    else echo "server_description = $SERVER_DESCRIPTION" >> $CONF_PATH;
+fi
+
+# motd = "Welcome to the training"
+if [ -z "$MOTD" ]; 
+    then echo "[INFO] MOTD not given"; 
+    else echo "motd = $MOTD" >> $CONF_PATH;
+fi
+
+# max_users 
+if [ -z "$MAX_USERS" ]; 
+    then echo "[INFO] MAX_USERS not given"; 
+    else echo "max_users = $MAX_USERS" >> $CONF_PATH;
+fi
+
+# creative_mode
+echo "creative_mode = true" >> $CONF_PATH;
+
+# admins
+if [ -z "$ADMIN" ]; 
+    then echo "[INFO] ADMIN not given"; 
+    else 
+        echo "name = $ADMIN" >> $CONF_PATH;
+fi
+
+# default_password
+if [ -z "$PASSWORD" ]; 
+    then echo "[WARN] PASSWORD not given"; 
+    else echo "default_password = $PASSWORD" >> $CONF_PATH;
+fi
+
+# enable_damage = false
+echo "enable_damage = false" >> $CONF_PATH
+
+# enable_pvp = false
+echo "enable_pvp = false" >> $CONF_PATH;
+
+# default privileges
+echo "default_privs = = interact, shout, fly, teleport" >> $CONF_PATH;
+
+# day/night cycle
+echo "time_speed = 0" >> $CONF_PATH;
+
+# time of day when a new world is created
+echo "world_start_time = 6125" >> $CONF_PATH;
+
+# mapgen
+if [ -z "$MAPGEN" ]; 
+    then echo "[INFO] MAPGEN not given"; 
+    else echo "mg_name = $MAPGEN" >> $CONF_PATH;
+fi
+
+if [ -z "$DEBUG" ]; 
+    then echo ""; 
+    else
+        echo "------------------------------------------";
+        echo "[INFO] $CONF_PATH";
+        echo "------------------------------------------";
+        cat $CONF_PATH;
+        echo "------------------------------------------";
+fi
+
+echo "------------------------------------------"
+
+echo "ls /config/.minetest/worlds/world"
+ls /config/.minetest/worlds/world
+
+echo "------------------------------------------"
+
+echo "ls /config/.minetest/games/${GAME}/"
+ls /config/.minetest/games/${GAME}/
+
+echo "------------------------------------------"
+
+echo "ls /config/.minetest/games/${GAME}/mods"
+ls /config/.minetest/games/${GAME}/mods
