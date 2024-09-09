@@ -20,12 +20,6 @@ Content:
 
 see https://www.linuxserver.io/blog/2019-09-14-customizing-our-containers for init scripts
 
-How it all fits together:
-
-In the built container you can find the following: 
-- in /custom-cont-init.d/cap-init script with replaces/appends configuration strings in a file and copy it to 'minetest_game'
-- /config/.minetest/games/ contains the minetest games which can be selected by command line argument '--gameid' 
-
 Environment variables
 
 | Variable name | default value | description |
@@ -37,8 +31,15 @@ Environment variables
 | PASSWORD | empty string | Password to enter the game, should be set |
 | ADMIN | empty string | Name of the admin user |
 | MAPGEN | empty string | configuration string for the map, e.g. v7 |
-| CLI_ARGS | --gameid tutorial --port 30000 | command line arguments for the minetest server, replace 'tutorial' with the gameid, same as the folder name in /config/.minetest/games |
 | GAME | tutorial | gameid, same as the folder in /config/.minetest/games |
+
+How it all fits together:
+
+In the built container you can find the following: 
+- in /custom-cont-init.d/cap-init script with replaces/appends configuration strings in a file and copy it to 'minetest_game'
+- /config/.minetest/games/ contains the minetest games which can be selected by command line argument '--gameid' 
+
+
 
 Example docker configuration for 'tutorial': 
 

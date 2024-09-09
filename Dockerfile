@@ -21,5 +21,4 @@ ENV SERVER_DESCRIPTION="Minetest Server für Trainings bei Capgemini Deutschland
 ENV PASSWORD=""
 ENV ADMIN=""
 ENV MAPGEN=""
-ENV CLI_ARGS="--gameid tutorial --port 30000"
 ENV GAME="tutorial"

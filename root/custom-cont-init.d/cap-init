@@ -1,6 +1,8 @@
 #!/usr/bin/with-contenv bash
 
-if [ -z "$DEBUG" ]; 
+export CLI_ARGS="--gameid ${GAME} --port 30000"
+
+if [ -z "$DEBUG" ];
     then echo ""; 
     else
         echo "------------- ENVIRONMENT VARIABLES -----------------------------";
