@@ -112,57 +112,15 @@ fi
 
 echo "------------------------------------------"
 
-# add mods and config only to default game, not to tutorial
-if [ "$GAME" = "tutorial" ]; 
-    then echo "[INFO] do not copy mods in tutorial game"; 
-    exit;
-fi
-
-MOD_PATH="/config/.minetest/games/${GAME}"
-
-if [ -z "$MOD_PATH" ]; 
-    then echo "[ERROR] MOD_PATH not given"; 
-    echo "------------------------------------------";
-    exit 1;
-fi
-
-if [ ! -d "$MOD_PATH" ]; then
-  echo "[ERROR] $MOD_PATH does not exist.";
-  exit 1;
-fi
-
-echo "----- [INFO] /home/mods -------------------------------------"
-ls /home/mods
-echo "------------------------------------------"
-
-if [ -z "$DEBUG" ]; 
-    then echo ""; 
-    else
-        echo "------------------------------------------";
-        echo "[INFO] $MOD_PATH/mods before copy";
-        echo "------------------------------------------";
-        ls $MOD_PATH/mods;
-        echo "------------------------------------------";
-fi
-
-
-echo "[INFO] copy mods from /home/mods to ${MOD_PATH}";
-cp -R /home/mods ${MOD_PATH};
-
-if [ -z "$DEBUG" ]; 
-    then echo ""; 
-    else
-        echo "------------------------------------------";
-        echo "[INFO] $MOD_PATH/mods";
-        echo "------------------------------------------";
-        ls $MOD_PATH/mods;
-        echo "------------------------------------------";
-fi
-
-echo "------------------------------------------"
-
 echo "ls /config/.minetest/worlds/world"
 ls /config/.minetest/worlds/world
 
+echo "------------------------------------------"
+
 echo "ls /config/.minetest/games/${GAME}/"
 ls /config/.minetest/games/${GAME}/
+
+echo "------------------------------------------"
+
+echo "ls /config/.minetest/games/${GAME}/mods"
+ls /config/.minetest/games/${GAME}/mods

@@ -15,17 +15,15 @@ Content:
 | folder | description |
 |--------|-------------|
 | root | contains scripts which are executed at the startup of the container |
-| mods | contains additional mods which will be copied by the init scripts to the games folder |
+| mods | contains additional mods which will be copied minetest_games folder |
 | games | contains for each predefined game a seperate folder, 'tutorial' comes from minetest ContentDB, 'minetest_game' is a git clone of a default game |
 
-see https://github.com/just-containers/s6-overlay?tab=readme-ov-file#init-stages for init scripts
+see https://www.linuxserver.io/blog/2019-09-14-customizing-our-containers for init scripts
 
 How it all fits together:
 
 In the built container you can find the following: 
-- in /etc/cont-init.d/ init scripts with
--- 40-config-env : replaces/appends configuration strings in a file and copy it to 'minetest_game'
--- 50-copy-mods : copys the mods located in /home/mods to 'minetest_game' mods folder
+- in /custom-cont-init.d/cap-init script with replaces/appends configuration strings in a file and copy it to 'minetest_game'
 - /config/.minetest/games/ contains the minetest games which can be selected by command line argument '--gameid' 
 
 Environment variables
