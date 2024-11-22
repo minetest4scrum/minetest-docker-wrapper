@@ -3,7 +3,7 @@ Adding mods and other stuff to the official minetest docker image
 Usage:
 
 - add mods or other content to this repository
-- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.9.0 --no-cache --rm .'
+- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.10.0 --no-cache --rm .'
 - push the image to 'minetest4scrum' docker hub account
 
 please note:
@@ -12,26 +12,27 @@ please note:
 
 Content:
 
-| folder | description |
-|--------|-------------|
-| root | contains scripts which are executed at the startup of the container |
-| mods | contains additional mods which will be copied minetest_games folder |
+| folder | description                                                                                                                                     |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| root | contains scripts which are executed at the startup of the container                                                                             |
+| mods | contains additional mods which will be copied to minetest_games folder                                                                          |
 | games | contains for each predefined game a seperate folder, 'tutorial' comes from minetest ContentDB, 'minetest_game' is a git clone of a default game |
 
 see https://www.linuxserver.io/blog/2019-09-14-customizing-our-containers for init scripts
 
 Environment variables
 
-| Variable name | default value | description |
-|--------|-------------|-------------|
-| SERVER_NAME | Minetest@Capgemini | Any name which you want | 
-| MOTD | Welcome to the training | message of the day |
-| MAX_USERS | 50 | maximum allowed users for the server, tested up to 80 |
-| SERVER_DESCRIPTION |  Minetest Server für Trainings bei Capgemini Deutschland GmbH | Any description |
-| PASSWORD | empty string | Password to enter the game, should be set |
-| ADMIN | empty string | Name of the admin user |
-| MAPGEN | empty string | configuration string for the map, e.g. v7 |
-| GAME | tutorial | gameid, same as the folder in /config/.minetest/games |
+| Variable name | default value                                                | description                                           |
+|--------|--------------------------------------------------------------|-------------------------------------------------------|
+| SERVER_NAME | Minetest@Capgemini                                           | Any name which you want                               | 
+| MOTD | Welcome to the training                                      | message of the day                                    |
+| MAX_USERS | 50                                                           | maximum allowed users for the server, tested up to 80 |
+| SERVER_DESCRIPTION | Minetest Server für Trainings bei Capgemini Deutschland GmbH | Any description                                       |
+| PASSWORD | empty string                                                 | Password to enter the game, should be set             |
+| ADMIN | empty string                                                 | Name of the admin user                                |
+| MAPGEN | empty string                                                 | configuration string for the map, e.g. v7             |
+| GAME | tutorial                                                     | gameid, same as the folder in /config/.minetest/games |
+| CAP_MOD | false                                                        | if 'false' then cap_perms will be removed from /config/.minetest/games/minetest_game/mods       |
 
 How it all fits together:
 
@@ -55,7 +56,7 @@ docker run -d \
   -e GAME="tutorial" \
   -p 30000:30000/udp \
   --restart unless-stopped \
-  minetest4scrum/minetest-wrapper:5.9.0
+  minetest4scrum/minetest-wrapper:5.10.0
   ```
 
 Example docker configuration for 'minetest_game': 
@@ -71,7 +72,8 @@ docker run -d \
   -e MAPGEN="v7" \
   -e CLI_ARGS="--gameid minetest_game --port 30000" \
   -e GAME="minetest_game" \
+  -e CAP_MOD="false" \
   -p 30000:30000/udp \
   --restart unless-stopped \
-  minetest4scrum/minetest-wrapper:5.9.0
+  minetest4scrum/minetest-wrapper:5.10.0
   ```
