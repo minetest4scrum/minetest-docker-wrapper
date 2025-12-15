@@ -22,14 +22,6 @@ if [ -z "$CONF_PATH" ];
     exit 1;
 fi
 
-# if CAP_MOD="false" then remove /config/.minetest/games/minetest_game/mods/cap_perms
-if [ "${CAP_MOD}" = "false" ]; then
-    echo "remove /config/.minetest/games/minetest_game/mods/cap_perms"
-    rm -rf /config/.minetest/games/minetest_game/mods/cap_perms
-else
-    echo "play with Capgemini Interaction Privileges"
-fi
-
 echo "[INFO] replace/add values in ${CONF_PATH} by environment variables"
 
 ### example for replacement if environment variable is given ###

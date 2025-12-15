@@ -3,7 +3,7 @@ Adding mods and other stuff to the official minetest docker image
 Usage:
 
 - add mods or other content to this repository
-- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.10.0 --no-cache --rm .'
+- build the docker image using 'docker buildx build -t minetest4scrum/minetest-wrapper:5.14.0 --no-cache --rm .'
 - push the image to 'minetest4scrum' docker hub account
 
 please note:
@@ -32,7 +32,7 @@ Environment variables
 | ADMIN | empty string                                                 | Name of the admin user                                |
 | MAPGEN | empty string                                                 | configuration string for the map, e.g. v7             |
 | GAME | tutorial                                                     | gameid, same as the folder in /config/.minetest/games |
-| CAP_MOD | false                                                        | if 'false' then cap_perms will be removed from /config/.minetest/games/minetest_game/mods       |
+
 
 How it all fits together:
 
@@ -56,7 +56,7 @@ docker run -d \
   -e GAME="tutorial" \
   -p 30000:30000/udp \
   --restart unless-stopped \
-  minetest4scrum/minetest-wrapper:5.10.0
+  minetest4scrum/minetest-wrapper:5.14.0
   ```
 
 Example docker configuration for 'minetest_game': 
@@ -72,8 +72,7 @@ docker run -d \
   -e MAPGEN="v7" \
   -e CLI_ARGS="--gameid minetest_game --port 30000" \
   -e GAME="minetest_game" \
-  -e CAP_MOD="false" \
   -p 30000:30000/udp \
   --restart unless-stopped \
-  minetest4scrum/minetest-wrapper:5.10.0
+  minetest4scrum/minetest-wrapper:5.14.0
   ```

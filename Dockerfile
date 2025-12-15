@@ -1,6 +1,6 @@
 ﻿# see https://hub.docker.com/r/linuxserver/minetest 
 # for more information
-FROM linuxserver/minetest:5.10.0
+FROM linuxserver/luanti:5.14.0
 LABEL author="Kim Ragna Schwerdt" 
 LABEL maintainer="minecraft-admins.de@capgemini.com"
 
@@ -22,4 +22,3 @@ ENV PASSWORD=""
 ENV ADMIN=""
 ENV MAPGEN=""
 ENV GAME="tutorial"
-ENV CAP_MOD="false"
