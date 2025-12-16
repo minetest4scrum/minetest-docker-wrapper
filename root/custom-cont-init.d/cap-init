@@ -10,7 +10,7 @@ if [ -z "$DEBUG" ];
         echo "------------------------------------------";
 fi
 
-# replace values in /config/.minetest/${GAME}/minetest.conf by environment variables
+# replace values in /config/.minetest/games/${GAME}/minetest.conf by environment variables
 
 echo "------------------------------------------"
 # add mods and config only to default game, not to tutorial
@@ -67,6 +67,10 @@ fi
 
 # creative_mode
 echo "creative_mode = true" >> $CONF_PATH;
+# non empty password
+echo "disallow_empty_password = true" >> $CONF_PATH;
+# basic privileges
+echo "basic_privs = interact, shout, give, teleport, bring, fly" >> $CONF_PATH;
 
 # admins
 if [ -z "$ADMIN" ]; 
@@ -88,7 +92,7 @@ echo "enable_damage = false" >> $CONF_PATH
 echo "enable_pvp = false" >> $CONF_PATH;
 
 # default privileges
-echo "default_privs = = interact, shout, fly, teleport" >> $CONF_PATH;
+echo "default_privs = interact, shout, give, teleport, bring, fly" >> $CONF_PATH;
 
 # day/night cycle
 echo "time_speed = 0" >> $CONF_PATH;
